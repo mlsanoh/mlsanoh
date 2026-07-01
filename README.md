@@ -18,6 +18,8 @@ Analytical and business-driven Data Engineer with a strong background in corpora
 ---
 
 ### 🚀 Featured Data Engineering Projects (All 6 Repositories)
+#### 🔹 [Modern Data Stack de Production (Azure • Snowflake • dbt • Airflow)](https://github.com/mlsanoh/Modern-Data-Stack-de-Production-Azure-Snowflake-dbt-Airflow-Docker)
+"Industrialized modern data stack. End-to-end orchestration using **Docker Compose (Apache Airflow)** to automate raw data ingestion from **Azure Blob Storage** to **Snowflake**. Implements modular transformations, strict data quality testing (`dbt build`), and continuous deployment (`CI/CD`) via **GitHub Actions**."
 
 #### 🔹 [Azure Data Engineering Pipeline](https://github.com/mlsanoh/azure-data-engineering-pipeline)
 End-to-end Big Data cloud architecture. Ingests raw data using **Azure Data Factory (ADF)** into **Azure Data Lake Storage (ADLS Gen2)**, followed by distributed processing using **Databricks (PySpark/Spark SQL)** under a Medallion architecture.
