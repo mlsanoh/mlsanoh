@@ -18,6 +18,13 @@ Analytical and business-driven Data Engineer with a strong background in corpora
 ---
 
 ### 🚀 Featured Data Engineering Projects (All 6 Repositories)
+#### 🔹 [Production Medallion Pipeline (Azure • Databricks • dbt • Git)](https://github.com/mlsanoh/Medallion-Architecture-DBT-Azure)
+*   **Description:** Industrialization of an end-to-end Medallion Architecture (Bronze ➡️ Silver ➡️ Gold).
+*   **Key Deliverables:** 
+    *   **Bronze:** Source declaration and automated quality framework executing 18 strict structural tests via dbt.
+    *   **Silver:** Implementation of snapshot strategies for historical tracking and Type 2 Slowly Changing Dimensions (SCD Type 2).
+    *   **Gold:** Transformation of cleaned data into high-value business Datamarts (Customer Segmentation, Top 10% CRM metrics) physically materializing Delta tables directly into an **Azure ADLS Gen2 Gold Container**.
+
 #### 🔹 [Modern Data Stack de Production (Azure • Snowflake • dbt • Airflow)](https://github.com/mlsanoh/Modern-Data-Stack-de-Production-Azure-Snowflake-dbt-Airflow-Docker)
 Industrialized modern data stack. End-to-end orchestration using **Docker Compose (Apache Airflow)** to automate raw data ingestion from **Azure Blob Storage** to **Snowflake**. Implements modular transformations, strict data quality testing (`dbt build`), and continuous deployment (`CI/CD`) via **GitHub Actions**.
 
