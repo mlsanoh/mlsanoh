@@ -17,8 +17,8 @@ Analytical and business-driven Data Engineer with a strong background in corpora
 
 ---
 
-### 🚀 Featured Data Engineering Projects (All 6 Repositories)
-#### 🔹 [Production Medallion Pipeline (Azure • Databricks • dbt • Git)](https://github.com/mlsanoh/Medallion-Architecture-DBT-Azure)
+### 🚀 Featured Data Engineering Projects (All 9 Repositories)
+#### 🔹 [Medallion-Architecture-DBT-Azure (Azure • Databricks • dbt • Git)](https://github.com/mlsanoh/Medallion-Architecture-DBT-Azure)
 *   **Description:** Industrialization of an end-to-end Medallion Architecture (Bronze ➡️ Silver ➡️ Gold).
 *   **Key Deliverables:** 
     *   **Bronze:** Source declaration and automated quality framework executing 18 strict structural tests via dbt.
