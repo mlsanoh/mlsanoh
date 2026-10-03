@@ -1,10 +1,10 @@
 # Mohamed Lamine Sanoh
 
-**Data Engineer junior | Cloud Azure · SQL · Python · dbt**
+**Data Engineer | Cloud Azure & Modern Data Stack**
 
-Je développe des projets de pipelines ETL/ELT, de qualité des données et de Data Warehouse avec SQL, Python et les services data de Microsoft Azure. Mon parcours en finance et en gestion des risques m'aide à relier les données aux indicateurs et aux besoins métier.
+Je conçois des pipelines ETL/ELT et des modèles de données avec les services data de Microsoft Azure, SQL, Python, dbt et Snowflake. Mon parcours en finance et en gestion des risques m'aide à relier les choix techniques aux besoins métier : reporting réglementaire, analyses e-commerce et données retail.
 
-Je recherche une opportunité de **Data Engineer junior en France**. Ce portfolio présente mes projets personnels, leur code et les choix techniques que je mets en pratique.
+**Disponible pour un poste en CDI en Data Engineering en France.** Ce portfolio présente mes réalisations data et les choix techniques que je mets en pratique. Je m'intéresse également au Data Engineering appliqué à l'IA, notamment aux LLM et au RAG.
 
 ## Cloud Azure : mes réalisations
 
@@ -15,6 +15,13 @@ Je recherche une opportunité de **Data Engineer junior en France**. Ce portfoli
 | **Azure Databricks** | Nettoyage, normalisation et agrégation avec PySpark ; utilisation de tables Delta et de Unity Catalog dans le projet Medallion. |
 | **Azure Synapse Analytics** | Création de vues et de procédures stockées SQL, puis orchestration de leur exécution dans un pipeline Synapse. |
 | **Azure Key Vault** | Utilisation de secrets pour les accès au stockage, notamment via les secret scopes Databricks. |
+
+## Parcours professionnel
+
+- **Data Engineer & Consultant Data Solutions — SNH-Consulting** · Février 2025 à juillet 2026, Paris. Missions indépendantes : pipelines Azure, Airflow/dbt/Snowflake, modélisation de Data Warehouse, qualité des données et analyses e-commerce.
+- **Analyste Risques de Liquidité & Gouvernance des données — Société Générale** · Septembre 2022 à mai 2023, Paris. Fiabilisation des données réglementaires dans le cadre de BCBS 239, reporting LCR/NSFR et automatisation avec Power BI, Alteryx et Excel.
+
+**Formation :** MBA Finance et Data Performance, ESLSCA Business School — 2023 ; licence en finance, ESPIMA Business School — 2018.
 
 ## Projets à découvrir
 
@@ -35,6 +42,8 @@ Autre projet : [classement LaLiga 2024–2025](https://github.com/mlsanoh/LaLiga
 - **dbt et Snowflake :** modèles en couches, historisation et tests de qualité des données.
 - **Airflow, Docker, Git et GitHub Actions :** orchestration, environnement de développement et validation automatique du code.
 - **Bases de données :** SQL Server, PostgreSQL, MySQL et DuckDB/MotherDuck.
+- **Gouvernance et qualité :** contrôles, traçabilité, auditabilité et documentation des données.
+- **Restitution et BI :** Power BI, modélisation DAX, visualisation des données, Excel avancé et Alteryx.
 
 ## Contact
 
