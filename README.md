@@ -1,56 +1,36 @@
-# Hi there, I'm Mohamed Lamine Sanoh! 👋
-**Data Engineer | Cloud Azure & Modern Data Stack**
+# Mohamed Lamine Sanoh
 
-Analytical and business-driven Data Engineer with a strong background in corporate finance and risk management (ex-Société Générale). I specialize in designing scalable ELT/ETL architectures, automating data pipelines, and implementing rigorous data quality frameworks to drive decision-making.
+**Data Engineer junior | SQL · Python · dbt · Airflow**
 
-🎯 **Looking for a Full-Time Data Engineer CDI in Paris, France**
+Je développe des projets de pipelines ETL/ELT, de qualité des données et de Data Warehouse. Mon parcours en finance et en gestion des risques m'aide à relier les données aux indicateurs et aux besoins métier.
 
----
+Je recherche une opportunité de **Data Engineer junior en France**. Ce portfolio présente mes projets personnels, leur code et les choix techniques que je mets en pratique.
 
-### 🛠️ Tech Stack & Tools
+## Ce que je mets en pratique
 
-- **Cloud & Ingestion:** Microsoft Azure, Azure Data Factory (ADF), Azure Data Lake (ADLS Gen2), Apache Airflow, Astro CLI, Docker
-- **Data Transformation & Compute:** dbt (Core/Cloud), Databricks, PySpark, Spark SQL, Python (Pandas, NumPy), Bash
-- **Storage & Data Warehousing:** Snowflake Cloud Data Platform, PostgreSQL, SQL Server, DuckDB
-- **CI/CD & DevOps:** GitHub Actions, Unit Testing for DAGs, Medallion Architecture, Dimensional Modeling (Star Schema)
-- **BI & Analytics:** Power BI (DAX, Data Viz), Advanced Excel, Alteryx
+- Extraire des données depuis des fichiers CSV ou des API et les transformer avec Python et Pandas.
+- Écrire des requêtes SQL avec des jointures, des CTE, des agrégations et des fonctions de fenêtre.
+- Structurer les données en couches de préparation et en tables de faits et de dimensions.
+- Orchestrer des traitements avec Airflow et Docker, puis contrôler les données avant leur chargement.
 
----
+## Projets à découvrir
 
-### 🚀 Featured Data Engineering Projects (All 9 Repositories)
-#### 🔹 [Medallion-Architecture-DBT-Azure (Azure • Databricks • dbt • Git)](https://github.com/mlsanoh/Medallion-Architecture-DBT-Azure)
-*   **Description:** Industrialization of an end-to-end Medallion Architecture (Bronze ➡️ Silver ➡️ Gold).
-*   **Key Deliverables:** 
-    *   **Bronze:** Source declaration and automated quality framework executing 18 strict structural tests via dbt.
-    *   **Silver:** Implementation of snapshot strategies for historical tracking and Type 2 Slowly Changing Dimensions (SCD Type 2).
-    *   **Gold:** Transformation of cleaned data into high-value business Datamarts (Customer Segmentation, Top 10% CRM metrics) physically materializing Delta tables directly into an **Azure ADLS Gen2 Gold Container**.
+| Projet | Ce qu'il présente | Technologies |
+|---|---|---|
+| [Pipeline ETL de ventes](https://github.com/mlsanoh/Pipeline-ETL-Automated-Sales-Data-Quality-Orchestration-avec-Airflow-Docker-et-PostgreSQL) | Extraction CSV, nettoyage, détection des anomalies et chargement dans PostgreSQL, orchestrés en quatre tâches Airflow. | Python, Pandas, Airflow, Docker, PostgreSQL |
+| [Data Warehouse e-commerce en SQL](https://github.com/mlsanoh/Projet-SQL-Marketplace-E-commerce) | Pipeline RAW → STAGING → DATA MART, contrôles qualité et analyses des ventes, des clients et des livraisons. | SQL, DuckDB, MotherDuck |
+| [Modern Data Stack](https://github.com/mlsanoh/Modern-Data-Stack-de-Production-Azure-Snowflake-dbt-Airflow-Docker) | Ingestion Azure Blob Storage → Snowflake, transformations dbt, modèle en étoile et historisation. Validation automatique sur GitHub ; exécution Snowflake manuelle. | Azure, Snowflake, dbt, Airflow, Docker, GitHub Actions |
+| [Classement LaLiga 2024–2025](https://github.com/mlsanoh/LaLiga-classement-2024-2025) | Notebook d'extraction depuis une API, préparation du classement avec Pandas et chargement dans MySQL avec mise à jour des données existantes. | Python, Pandas, API, MySQL |
 
-#### 🔹 [Modern Data Stack de Production (Azure • Snowflake • dbt • Airflow)](https://github.com/mlsanoh/Modern-Data-Stack-de-Production-Azure-Snowflake-dbt-Airflow-Docker)
-Industrialized modern data stack. End-to-end orchestration using **Docker Compose (Apache Airflow)** to automate raw data ingestion from **Azure Blob Storage** to **Snowflake**. Implements modular transformations, strict data quality testing (`dbt build`), and continuous deployment (`CI/CD`) via **GitHub Actions**.
+## Technologies utilisées dans ces projets
 
-#### 🔹 [Azure Data Engineering Pipeline](https://github.com/mlsanoh/azure-data-engineering-pipeline)
-End-to-end Big Data cloud architecture. Ingests raw data using **Azure Data Factory (ADF)** into **Azure Data Lake Storage (ADLS Gen2)**, followed by distributed processing using **Databricks (PySpark/Spark SQL)** under a Medallion architecture.
+- **Traitement et analyse :** SQL, Python, Pandas.
+- **Stockage :** PostgreSQL, MySQL, DuckDB, MotherDuck, Snowflake.
+- **Transformation et orchestration :** dbt, Apache Airflow, Docker.
+- **Cloud et versionnement :** Azure Blob Storage, Git, GitHub Actions.
 
-#### 🔹 [Automated Sales ETL Pipeline](https://github.com/mlsanoh/Pipeline-ETL-Automated-Sales-Data-Quality-Orchestration-avec-Airflow-Docker-et-PostgreSQL)
-A production-ready containerized pipeline deployed with **Astro CLI (Apache Airflow)** and **Docker**. Includes advanced data cleaning, row imputation with **Python (Pandas)**, and robust data quality validation checks before loading into **PostgreSQL**.
+## Contact
 
-#### 🔹 [Data Warehouse & Data Marts Optimization](https://github.com/mlsanoh/Construction-du-Data-Warehouse-des-Data-Marts-Pipeline-ETL-de-Production)
-Dimensional modeling (Fact & Dimension tables) hosted on **Snowflake**. Orchestrated completely using **dbt Core** across staging, intermediate, and marts layers, embedded with automated data quality assertions.
-
-#### 🔹 [Financial Data Engineering](https://github.com/mlsanoh/Financial_data_engineering)
-Automated market data ingestion pipeline executing computational time-series algorithms and risk metrics calculations in **Python**.
-
-#### 🔹 [Projet SQL Marketplace E-commerce](https://github.com/mlsanoh/Projet-SQL-Marketplace-E-commerce)
-Advanced SQL analytics platform. Structured complex queries, CTEs, and window functions to optimize database performance and extract business-critical KPIs regarding customer behavior and sales performance.
-
-#### 🔹 [LaLiga Classement 2024-2025](https://github.com/mlsanoh/LaLiga-classement-2024-2025)
-Automated sports data ingestion workflow. Built a **Python** script combining Web Scraping techniques and API consumption to dynamically fetch, clean, and structure real-time football league standings.
-
----
-
-### 📈 Connect with Me
-
-- 💼 **LinkedIn:** [linkedin.com/in/mlsanoh](https://linkedin.com/in/mlsanoh)
-- 📧 **Email:** mlsanoh3@gmail.com
-
-⚡ *Fun fact: I love bridging the gap between complex financial risk metrics (like LCR/NSFR from my bank days) and clean, optimized data infrastructure!*
+- [LinkedIn](https://linkedin.com/in/mlsanoh)
+- [mlsanoh3@gmail.com](mailto:mlsanoh3@gmail.com)
+- [Tous mes dépôts publics](https://github.com/mlsanoh?tab=repositories)
