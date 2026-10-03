@@ -1,56 +1,43 @@
-# Hi there, I'm Mohamed Lamine Sanoh! 👋
-**Data Engineer | Cloud Azure & Modern Data Stack**
+# Mohamed Lamine Sanoh
 
-Analytical and business-driven Data Engineer with a strong background in corporate finance and risk management (ex-Société Générale). I specialize in designing scalable ELT/ETL architectures, automating data pipelines, and implementing rigorous data quality frameworks to drive decision-making.
+**Data Engineer junior | Cloud Azure · SQL · Python · dbt**
 
-🎯 **Looking for a Full-Time Data Engineer CDI in Paris, France**
+Je développe des projets de pipelines ETL/ELT, de qualité des données et de Data Warehouse avec SQL, Python et les services data de Microsoft Azure. Mon parcours en finance et en gestion des risques m'aide à relier les données aux indicateurs et aux besoins métier.
 
----
+Je recherche une opportunité de **Data Engineer junior en France**. Ce portfolio présente mes projets personnels, leur code et les choix techniques que je mets en pratique.
 
-### 🛠️ Tech Stack & Tools
+## Cloud Azure : mes réalisations
 
-- **Cloud & Ingestion:** Microsoft Azure, Azure Data Factory (ADF), Azure Data Lake (ADLS Gen2), Apache Airflow, Astro CLI, Docker
-- **Data Transformation & Compute:** dbt (Core/Cloud), Databricks, PySpark, Spark SQL, Python (Pandas, NumPy), Bash
-- **Storage & Data Warehousing:** Snowflake Cloud Data Platform, PostgreSQL, SQL Server, DuckDB
-- **CI/CD & DevOps:** GitHub Actions, Unit Testing for DAGs, Medallion Architecture, Dimensional Modeling (Star Schema)
-- **BI & Analytics:** Power BI (DAX, Data Viz), Advanced Excel, Alteryx
+| Service | Mise en pratique dans mes projets |
+|---|---|
+| **Azure Data Factory** | Ingestion depuis SQL Server et Azure SQL, copie de données vers le Data Lake, pipelines paramétrés et déclenchement de notebooks Databricks. |
+| **Azure Data Lake Storage Gen2** | Organisation des données en couches Bronze, Silver et Gold, avec des fichiers Parquet et des tables Delta. |
+| **Azure Databricks** | Nettoyage, normalisation et agrégation avec PySpark ; utilisation de tables Delta et de Unity Catalog dans le projet Medallion. |
+| **Azure Synapse Analytics** | Création de vues et de procédures stockées SQL, puis orchestration de leur exécution dans un pipeline Synapse. |
+| **Azure Key Vault** | Utilisation de secrets pour les accès au stockage, notamment via les secret scopes Databricks. |
 
----
+## Projets à découvrir
 
-### 🚀 Featured Data Engineering Projects (All 9 Repositories)
-#### 🔹 [Medallion-Architecture-DBT-Azure (Azure • Databricks • dbt • Git)](https://github.com/mlsanoh/Medallion-Architecture-DBT-Azure)
-*   **Description:** Industrialization of an end-to-end Medallion Architecture (Bronze ➡️ Silver ➡️ Gold).
-*   **Key Deliverables:** 
-    *   **Bronze:** Source declaration and automated quality framework executing 18 strict structural tests via dbt.
-    *   **Silver:** Implementation of snapshot strategies for historical tracking and Type 2 Slowly Changing Dimensions (SCD Type 2).
-    *   **Gold:** Transformation of cleaned data into high-value business Datamarts (Customer Segmentation, Top 10% CRM metrics) physically materializing Delta tables directly into an **Azure ADLS Gen2 Gold Container**.
+| Projet | Ce qu'il présente | Technologies |
+|---|---|---|
+| [Pipeline data sur Azure](https://github.com/mlsanoh/azure-data-engineering-pipeline) | Ingestion SQL Server → Data Lake, transformations Bronze/Silver/Gold en PySpark et exposition des données avec Synapse. | ADF, ADLS Gen2, Databricks, PySpark, Synapse, Key Vault |
+| [Architecture Medallion avec dbt et Azure](https://github.com/mlsanoh/Medallion-Architecture-DBT-Azure) | Ingestion paramétrée, snapshots pour l'historisation SCD Type 2, tables Delta et marts analytiques avec tests dbt. | ADF, ADLS Gen2, Databricks, Unity Catalog, dbt, Delta Lake |
+| [Modern Data Stack](https://github.com/mlsanoh/Modern-Data-Stack-de-Production-Azure-Snowflake-dbt-Airflow-Docker) | Ingestion Azure Blob Storage → Snowflake, transformations dbt et modèle en étoile. Validation automatique sur GitHub ; exécution Snowflake manuelle. | Azure Blob Storage, Snowflake, dbt, Airflow, Docker, GitHub Actions |
+| [Pipeline ETL de ventes](https://github.com/mlsanoh/Pipeline-ETL-Automated-Sales-Data-Quality-Orchestration-avec-Airflow-Docker-et-PostgreSQL) | Extraction CSV, nettoyage, détection des anomalies et chargement dans PostgreSQL, orchestrés en quatre tâches Airflow. | Python, Pandas, Airflow, Docker, PostgreSQL |
+| [Data Warehouse e-commerce en SQL](https://github.com/mlsanoh/Projet-SQL-Marketplace-E-commerce) | Pipeline RAW → STAGING → DATA MART, contrôles qualité et analyses des ventes, des clients et des livraisons. | SQL, DuckDB, MotherDuck |
 
-#### 🔹 [Modern Data Stack de Production (Azure • Snowflake • dbt • Airflow)](https://github.com/mlsanoh/Modern-Data-Stack-de-Production-Azure-Snowflake-dbt-Airflow-Docker)
-Industrialized modern data stack. End-to-end orchestration using **Docker Compose (Apache Airflow)** to automate raw data ingestion from **Azure Blob Storage** to **Snowflake**. Implements modular transformations, strict data quality testing (`dbt build`), and continuous deployment (`CI/CD`) via **GitHub Actions**.
+Autre projet : [classement LaLiga 2024–2025](https://github.com/mlsanoh/LaLiga-classement-2024-2025), avec extraction depuis une API, préparation des données en Python/Pandas et chargement dans MySQL.
 
-#### 🔹 [Azure Data Engineering Pipeline](https://github.com/mlsanoh/azure-data-engineering-pipeline)
-End-to-end Big Data cloud architecture. Ingests raw data using **Azure Data Factory (ADF)** into **Azure Data Lake Storage (ADLS Gen2)**, followed by distributed processing using **Databricks (PySpark/Spark SQL)** under a Medallion architecture.
+## Autres compétences mises en pratique
 
-#### 🔹 [Automated Sales ETL Pipeline](https://github.com/mlsanoh/Pipeline-ETL-Automated-Sales-Data-Quality-Orchestration-avec-Airflow-Docker-et-PostgreSQL)
-A production-ready containerized pipeline deployed with **Astro CLI (Apache Airflow)** and **Docker**. Includes advanced data cleaning, row imputation with **Python (Pandas)**, and robust data quality validation checks before loading into **PostgreSQL**.
+- **SQL :** jointures, CTE, agrégations, fonctions de fenêtre, tables de faits et de dimensions.
+- **Python :** Pandas pour la préparation des données ; PySpark pour les transformations dans Databricks.
+- **dbt et Snowflake :** modèles en couches, historisation et tests de qualité des données.
+- **Airflow, Docker, Git et GitHub Actions :** orchestration, environnement de développement et validation automatique du code.
+- **Bases de données :** SQL Server, PostgreSQL, MySQL et DuckDB/MotherDuck.
 
-#### 🔹 [Data Warehouse & Data Marts Optimization](https://github.com/mlsanoh/Construction-du-Data-Warehouse-des-Data-Marts-Pipeline-ETL-de-Production)
-Dimensional modeling (Fact & Dimension tables) hosted on **Snowflake**. Orchestrated completely using **dbt Core** across staging, intermediate, and marts layers, embedded with automated data quality assertions.
+## Contact
 
-#### 🔹 [Financial Data Engineering](https://github.com/mlsanoh/Financial_data_engineering)
-Automated market data ingestion pipeline executing computational time-series algorithms and risk metrics calculations in **Python**.
-
-#### 🔹 [Projet SQL Marketplace E-commerce](https://github.com/mlsanoh/Projet-SQL-Marketplace-E-commerce)
-Advanced SQL analytics platform. Structured complex queries, CTEs, and window functions to optimize database performance and extract business-critical KPIs regarding customer behavior and sales performance.
-
-#### 🔹 [LaLiga Classement 2024-2025](https://github.com/mlsanoh/LaLiga-classement-2024-2025)
-Automated sports data ingestion workflow. Built a **Python** script combining Web Scraping techniques and API consumption to dynamically fetch, clean, and structure real-time football league standings.
-
----
-
-### 📈 Connect with Me
-
-- 💼 **LinkedIn:** [linkedin.com/in/mlsanoh](https://linkedin.com/in/mlsanoh)
-- 📧 **Email:** mlsanoh3@gmail.com
-
-⚡ *Fun fact: I love bridging the gap between complex financial risk metrics (like LCR/NSFR from my bank days) and clean, optimized data infrastructure!*
+- [LinkedIn](https://linkedin.com/in/mlsanoh)
+- [mlsanoh3@gmail.com](mailto:mlsanoh3@gmail.com)
+- [Tous mes dépôts publics](https://github.com/mlsanoh?tab=repositories)
